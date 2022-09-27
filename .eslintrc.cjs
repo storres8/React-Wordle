@@ -23,5 +23,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     'react/react-in-jsx-scope': 0,
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'off',
   },
 };
