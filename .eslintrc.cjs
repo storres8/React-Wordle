@@ -25,6 +25,7 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'off',
+    'import/prefer-default-export': 0,
   },
   ignorePatterns: ['vite.config.ts', 'tailwind.config.cjs'],
 };
